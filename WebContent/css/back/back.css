@@ -1,0 +1,53 @@
+div.workArea{
+	margin-top: 100px;
+	margin-left: auto;
+	margin-right: auto;
+	width: 80%;
+}
+
+div.page{
+	margin-left: auto;
+	margin-right: auto;
+	width: 40%;
+}
+
+h1.label{
+	margin-bottom: 10px;
+}
+
+div.workArea table.addTable{
+	margin-left: auto;
+	margin-right: auto;
+	width: 40%;
+}
+
+
+div.workArea table.addTable td{
+	padding: 20px;
+}
+
+div.workArea table.addPictureTable{
+	margin-left: auto;
+	margin-right: auto;
+	width: 80%;
+}
+
+div.workArea table.addPictureTable td{
+	padding: 20px;
+}
+
+div.workArea div.editProductValue{
+	margin-left: auto;
+	margin-right: auto;
+	width: 50%;
+}
+
+div.workArea div.editProductValue table{
+	margin-left: auto;
+	margin-right: auto;
+	width: 80%;
+}
+
+div.workArea div.editProductValue table td{
+	padding: 15px;
+}

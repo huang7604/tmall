@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<web-app xsi:schemaLocation="http://java.sun.com/xml/ns/javaee http://java.sun.com/xml/ns/javaee/web-app_3_0.xsd" 
+xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
+xmlns="http://java.sun.com/xml/ns/javaee" version="3.0">
+  
+  <!-- 分类管理 -->
+  <servlet>
+     <servlet-name>category</servlet-name>
+     <servlet-class>com.tmall.servlet.CategoryServlet</servlet-class>
+  </servlet>
+  
+  <servlet-mapping>
+    <servlet-name>category</servlet-name>
+    <url-pattern>/categoryServlet</url-pattern>
+  </servlet-mapping>
+  
+    <!-- 分类属性管理 -->
+  <servlet>
+     <servlet-name>property</servlet-name>
+     <servlet-class>com.tmall.servlet.PropertyServlet</servlet-class>
+  </servlet>
+  
+  <servlet-mapping>
+    <servlet-name>property</servlet-name>
+    <url-pattern>/propertyServlet</url-pattern>
+  </servlet-mapping>
+  
+    <!-- 分类产品管理 -->
+  <servlet>
+     <servlet-name>product</servlet-name>
+     <servlet-class>com.tmall.servlet.ProductServlet</servlet-class>
+  </servlet>
+  
+  <servlet-mapping>
+    <servlet-name>product</servlet-name>
+    <url-pattern>/productServlet</url-pattern>
+  </servlet-mapping>
+  
+    <!-- 产品图片管理 -->
+  <servlet>
+     <servlet-name>productImage</servlet-name>
+     <servlet-class>com.tmall.servlet.ProductImageServlet</servlet-class>
+  </servlet>
+  
+  <servlet-mapping>
+    <servlet-name>productImage</servlet-name>
+    <url-pattern>/productImageServlet</url-pattern>
+  </servlet-mapping>
+  
+   <!-- 用户管理 -->
+  <servlet>
+     <servlet-name>user</servlet-name>
+     <servlet-class>com.tmall.servlet.UserServlet</servlet-class>
+  </servlet>
+  
+  <servlet-mapping>
+    <servlet-name>user</servlet-name>
+    <url-pattern>/userServlet</url-pattern>
+  </servlet-mapping>
+  
+    <!-- 前台 -->
+  <servlet>
+     <servlet-name>homeServlet</servlet-name>
+     <servlet-class>com.tmall.servlet.HomeServlet</servlet-class>
+  </servlet>
+  
+  <servlet-mapping>
+    <servlet-name>homeServlet</servlet-name>
+    <url-pattern>/homeServlet</url-pattern>
+  </servlet-mapping>
+  
+  
+    <!-- 前台抽象servlet-->
+    
+    <filter>
+    <filter-name>login</filter-name>
+    <filter-class>com.tmall.filter.HomeLoginFilter</filter-class>
+  </filter>
+  
+  <filter-mapping>
+    <filter-name>login</filter-name>
+    <url-pattern>/home/*</url-pattern>
+  </filter-mapping>
+  
+  <filter>
+    <filter-name>home</filter-name>
+    <filter-class>com.tmall.filter.HomeServletFilter</filter-class>
+  </filter>
+  
+  <filter-mapping>
+    <filter-name>home</filter-name>
+    <url-pattern>/home/*</url-pattern>
+  </filter-mapping>
+
+ <!-- 后台抽象servlet-->
+  <filter>
+    <filter-name>admin</filter-name>
+    <filter-class>com.tmall.filter.BackServletFilter</filter-class>
+  </filter>
+  
+  <filter-mapping>
+    <filter-name>admin</filter-name>
+    <url-pattern>/admin/*</url-pattern>
+  </filter-mapping>
+
+
+
+</web-app>

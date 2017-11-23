@@ -1,0 +1,321 @@
+div.imageAndInfo{
+	width: 60%;
+	margin-left: auto;
+	margin-right: auto;
+    overflow: hidden;
+    margin-top: 20px;
+}
+
+div.imageAndInfo div.image{
+	width: 38%;
+	float: left;
+	border: 1px solid #f2f2f2;
+	margin-top: 35px;
+}
+
+div.image div.smallImage{
+	width: 85%;
+	margin-left: auto;
+	margin-right: auto;
+	margin-top: 15px;
+	margin-bottom: 30px;
+}
+
+div.image img.bigImage{
+	width: 100%;
+	
+}
+
+div.imageAndInfo div.info{
+	width: 55%;
+	float: left;
+	margin-top: 35px;
+	margin-left: 20px;
+}
+
+div.info div.name{
+	font-size: 18px;
+	color: #000000;
+	font-weight: bold;
+}
+
+div.info div.subTitle{
+	margin-top: 3px;
+	font-size: 12px;
+	color: #C40000;
+}
+
+div.info div.juhuasuan{
+	background-color: #2DA77A;
+	height: 50px;
+	padding-left: 100px;
+	padding-top: 7px;
+	color: #ffffff;
+	margin-top: 15px;
+}
+
+div.info div.juhuasuan span.big{
+	font-size: 20px;
+}
+
+div.info div.juhuasuan span.time{
+	color: #ffff80;
+}
+
+div.info div.price{
+	background-image: url(/tmall/image/site/priceBackground.png);
+	height: 100px;
+	padding: 10px;
+	color: #666666;
+}
+
+div.info span.originalPriceDesc {
+	color: #999999;
+	display: inline-block;
+	width: 68px;
+}
+
+div.info span.promotionPriceDesc {
+	color: #999999;
+	display: inline-block;
+	width: 68px;
+	position: relative;
+	left: 0px;
+	top: -10px;
+}
+
+div.info span.originalPriceYuan {
+	font-family: Arial;
+	font-size: 12px;
+}
+
+div.info span.originalPrice {
+	font-family: Arial;
+	font-size: 12px;
+	color: #333333;
+	text-decoration: line-through;
+}
+
+div.info span.promotionPriceYuan {
+	font-family: Arial;
+	font-size: 18px;
+	color: #C40000;
+	/*     vertical-align: top; */
+}
+
+div.info span.promotionPrice {
+	color: #c40000;
+	font-family: Arial;
+	font-size: 30px;
+	font-weight: bold;
+	/*     vertical-align: top; */
+	/*     vertical-align: middle; */
+}
+
+div.info div.productSaleAndReviewNumber{
+	height: 40px;
+	border-top: 1px dashed #E5DFDA;
+	border-bottom: 1px dashed #E5DFDA;
+	margin-top: 10px;
+}
+
+div.productSaleAndReviewNumber div{
+	float: left;
+	font-size: 14px;
+	text-align: center;
+	color: #666666;
+	display: inline-block;
+	height: 100%;
+	width: 49%;
+	padding-top: 10px;
+}
+div.productSaleAndReviewNumber div:first-child{
+	border-right: 1px solid #E5DFDA;
+}
+
+div.productNumber{
+	color: #666666;
+	margin-top: 20px;
+	font-size: 15px;
+	width: 100%;
+	overflow: hidden;
+	line-height: 30px;
+}
+
+div.productNumber input{
+	width: 50px;
+	height: 30px;
+	border: 1px solid #999999;
+}
+
+div.serviceCommitment {
+	margin: 20px 0px;
+	color: #666666;
+}
+
+div.buyDiv {
+	margin: 20px auto;
+	text-align: center;
+}
+div.buyDiv button {
+	display: inline-block;
+	margin: 0px 10px;
+	width: 180px;
+	height: 40px;
+}
+
+button.buyButton {
+	border: 1px solid #C40000;
+	background-color: #FFEDED;
+	text-align: center;
+	line-height: 40px;
+	font-size: 16px;
+	/* 	font-weight:700; */
+	color: #C40000;
+	font-family: arial;
+}
+
+button.addCartButton {
+	border: 1px solid #C40000;
+	background-color: #C40000;
+	text-align: center;
+	line-height: 40px;
+	font-size: 16px;
+	/* 	font-weight:700; */
+	color: white;
+	font-family: arial;
+}
+
+button.addCartButton span.glyphicon {
+	font-size: 12px;
+	margin-right: 8px;
+}
+
+div.info span.inAndde{
+	height: 20px;
+}
+
+div.productNumber span{
+	float: left;
+	padding-top: 3px;
+}
+
+div.info span.inAndde a{
+	border: 1px solid #999999;
+	height: 13px;
+	width: 20px;
+	display: block;
+	margin-top: 2px;
+	text-align: center;
+	padding-top: 3px;
+	margin-left: 10px;
+	margin-right: 10px;
+	color: #999999;
+}
+
+div.productDetailDiv {
+	width: 790px;
+	margin: 40px auto;
+}
+
+div.productReviewDiv {
+	width: 790px;
+	margin: 40px auto;
+}
+
+div.productDetailTopPart{
+	border: 1px solid #DFDFDF;
+	border-left-width: 0px;
+}
+
+div.productReviewTopPart{
+	border: 1px solid #DFDFDF;
+}
+
+
+div.productParamterPart {
+	border: 1px solid #DFDFDF;
+	padding: 40px;
+}
+
+div.productParamter {
+	color: #999999;
+	font-weight: bold;
+	margin-bottom: 20px;
+}
+
+div.productParamterList{
+	overflow: hidden;
+}
+
+
+div.productParamterList span {
+	display: block;
+	width: 220px;
+	float: left;
+	padding: 8px 0px;
+	color: #666666;
+}
+
+a.selected {
+	border-left: 1px solid #cfbfb1;
+	border-right: 1px solid #cfbfb1;
+	color: #b10000;
+	display: inline-block;
+	font-weight: bold;
+	line-height: 46px;
+	width: 90px;
+	text-align: center;
+	position: relative;
+}
+
+a.selected:after {
+	border-color: #b00000 transparent transparent;
+	border-style: solid;
+	border-width: 5px;
+	content: "";
+	display: block;
+	width: 0;
+	height: 0;
+	position: absolute;
+	top: -1px;
+	left: 50%;
+	margin-left: -5px;
+}
+
+a.selected:before {
+	border-color: #b00000;
+	border-style: solid;
+	border-width: 1px;
+	content: "";
+	display: block;
+	width: 90px;
+	height: 0;
+	position: absolute;
+	top: -1px;
+	margin-left: -1px;
+}
+
+a.productDetailTopReviewLink {
+	padding: 0px 20px;
+	border-right: 1px dotted #D2D2D2;
+	color: #333333;
+}
+
+
+div.productDetailImagesPart img {
+	display: block; margin 20px 0px;
+	width: 790px;
+}
+
+
+div.productReviewDiv {
+	display: none;
+}
+
+a.productReviewTopPartLink {
+	padding: 0px 20px;
+	color: #333333;
+}
+
+
